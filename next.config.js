@@ -2,6 +2,7 @@
 const nextConfig = {
   // Use different output dir ONLY for local production builds
   distDir: process.env.BUILD_DIR || '.next',
+  output: 'export',
   
   images: {
     unoptimized: true,
