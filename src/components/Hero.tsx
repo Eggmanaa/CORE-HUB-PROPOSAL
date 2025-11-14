@@ -11,7 +11,7 @@ export default function Hero() {
       
       <div className="absolute inset-0 opacity-10">
         <Image 
-          src="/images/hero-facility-1.png" 
+          src="/images/hero-new.jpg" 
           alt="CORE Hub Facility" 
           fill 
           className="object-cover"

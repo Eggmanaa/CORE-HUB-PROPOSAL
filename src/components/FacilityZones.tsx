@@ -54,7 +54,7 @@ export default function FacilityZones() {
         "Project Management Pods"
       ],
       description: "Clean, human-centric workspace for UI/UX and entrepreneurship. Flexible setup for design thinking and collaboration.",
-      image: "/images/collab-space.jpg"
+      image: "/images/collab-studio.png"
     }
   ];
 

@@ -5,7 +5,6 @@ import LearningTracks from '@/components/LearningTracks';
 import FacilityZones from '@/components/FacilityZones';
 import Budget from '@/components/Budget';
 import CareerOutcomes from '@/components/CareerOutcomes';
-import Implementation from '@/components/Implementation';
 import CallToAction from '@/components/CallToAction';
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <FacilityZones />
       <CareerOutcomes />
       <Budget />
-      <Implementation />
       <CallToAction />
     </main>
   );

@@ -81,14 +81,14 @@ export default function LearningTracks() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
           {tracks.map((track, index) => (
             <motion.div
               key={track.title}
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className={`bg-zinc-950/80 backdrop-blur border ${track.borderColor} rounded-2xl p-8 transition-all duration-300 ${track.shadowColor} hover:shadow-xl ${index === 4 ? 'lg:col-span-3 lg:max-w-2xl lg:mx-auto' : ''}`}
+              className={`bg-zinc-950/80 backdrop-blur border ${track.borderColor} rounded-2xl p-8 transition-all duration-300 ${track.shadowColor} hover:shadow-xl ${index === 0 ? 'md:col-span-2' : ''}`}
             >
               <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${track.color} flex items-center justify-center mb-6`}>
                 <track.icon className="w-8 h-8 text-white" />
