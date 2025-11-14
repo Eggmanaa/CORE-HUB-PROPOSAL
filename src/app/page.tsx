@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero';
+import VideoTour from '@/components/VideoTour';
 import ExecutiveSummary from '@/components/ExecutiveSummary';
 import StrategicImperative from '@/components/StrategicImperative';
 import LearningTracks from '@/components/LearningTracks';
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950">
       <Hero />
+      <VideoTour />
       <ExecutiveSummary />
       <StrategicImperative />
       <LearningTracks />
